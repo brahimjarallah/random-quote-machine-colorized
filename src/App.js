@@ -1,4 +1,3 @@
-import { random } from "lodash"
 import React, { Component } from "react"
 import QuoteMachine from "./components/QuoteMachine"
 import "typeface-roboto"

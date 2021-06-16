@@ -59,7 +59,7 @@ class QuoteMachine extends Component {
       "#73A857",
     ]
     let color = colors[Math.floor(Math.random() * colors.length)]
-    while (color == this.state.color)
+    while (color === this.state.color)
       if (this.state.quotes.length > 0) {
         this.setState({
           color: color,
